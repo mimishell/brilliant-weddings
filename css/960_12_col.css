@@ -23,59 +23,6 @@ body {
 
 }
 
-a {
-  color: #5f656c;
-  text-decoration: none;
-}
-
-/* `Michelle CSS
-----------------------------------------------------------------------------------------------------*/
-
-h2 { 
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-}
-
-.connect {
-  margin-top: 13px;
-}
-
-.connect h2 {
-  padding: 7px 0;
-}
-
-.header {
-  margin-bottom: 30px;
-}
-
-.social-ribbon {
-  background-image:url(file://localhost/Users/Michelle/Michelle/Web%20Development/2013/8:22:13%20-%20Brilliant%20Weddings/social-ribbon.jpg);
-  height: 36px;
-  width: 283px;
-}
-
-.social-ribbon li {
-  float: left;
-  padding: 5px 7px;
-  text-align: center;
-}
-
-.social-ribbon ul {
-  margin-left: 58px;
-}
-
-.top-nav {
-  float: right;
-}
-
-.top-nav li {
-  float: left;
-  padding: 7px;
-}
-
-
-
 /* `Container
 ----------------------------------------------------------------------------------------------------*/
 
@@ -134,9 +81,7 @@ h2 {
 
 /* `Grid >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
-.wedding-image{
-  margin-left: 0px;
-}
+
 .container_12 .grid_1 {
   width: 60px;
 }
@@ -182,8 +127,7 @@ h2 {
 }
 
 .container_12 .grid_12 {
-  width: 920px;
-  padding: 0 10px;
+  width: 960px;
 }
 
 /* `Prefix Extra Space >> 12 Columns
@@ -417,4 +361,93 @@ h2 {
 .clearfix,
 .container_12 {
   zoom: 1;
+}
+
+/* `Michelle CSS
+----------------------------------------------------------------------------------------------------*/
+
+h2 { 
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.connect {
+  margin-top: 13px;
+}
+
+.connect h2 {
+  padding: 7px 0;
+}
+
+.header {
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.logo {
+  margin-left: 0px;
+}
+
+.menu {
+  background-image:url(file://localhost/Users/Michelle/Michelle/Web%20Development/2013/8:22:13%20-%20Brilliant%20Weddings/menu.jpg);
+  height: 70px;
+  margin: 0;
+  width: 960px;
+}
+
+.menu-links li{
+  float: left;
+  padding: 10px;
+}
+
+.menu-links ul {
+  margin: 10px 0 0 30px;
+}
+
+.menu-left {
+  float: left;
+  margin-left: -61px;
+}
+
+.menu-links a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.menu-right {
+  margin-left: 929px;
+  margin-top: -89px;
+}
+
+.social-ribbon {
+  background-image:url(file://localhost/Users/Michelle/Michelle/Web%20Development/2013/8:22:13%20-%20Brilliant%20Weddings/social-ribbon.jpg);
+  height: 36px;
+  width: 283px;
+}
+
+.social-ribbon li {
+  float: left;
+  padding: 5px 7px;
+  text-align: center;
+}
+
+.social-ribbon ul {
+  margin-left: 58px;
+}
+
+.top-nav {
+  float: right;
+  padding: 0 10px;
+}
+
+.top-nav a {
+  color: #5f656c;
+  text-decoration: none;
+}
+
+.top-nav li {
+  float: left;
+  padding: 7px;
 }
