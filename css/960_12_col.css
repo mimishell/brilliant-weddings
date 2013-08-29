@@ -380,6 +380,23 @@ h2 {
   padding: 7px 0;
 }
 
+.dates {
+  text-align: center;
+}
+.dotted-1 {
+  color: #d3e6e4;
+  font-family: century gothic;
+  font-size: 75px;
+  margin-top: -40px;
+}
+
+.dotted-2 {
+  color: #d3e6e4;
+  font-family: century gothic;
+  font-size: 75px;
+  margin-top: -77px;
+}
+
 .header {
   margin-bottom: 30px;
   padding: 0 10px;
@@ -396,29 +413,51 @@ h2 {
   width: 960px;
 }
 
-.menu-links li{
-  float: left;
-  padding: 10px;
-}
-
-.menu-links ul {
-  margin: 10px 0 0 30px;
-}
-
 .menu-left {
   float: left;
   margin-left: -61px;
+}
+
+.menu-links li{
+  float: left;
+  padding: 20px 10px;
+}
+
+.menu-links ul {
+  margin: 0 0 0 30px;
 }
 
 .menu-links a {
   color: #fff;
   font-size: 15px;
   text-decoration: none;
+ }
+
+.menu-links li:hover {
+  color: #fff;
+  height: 17px;
+/* Fallback for web browsers that don't support RGBa */
+  background-color: rgb(255, 255, 255);
+/* RGBa with 0.6 opacity */
+  background-color: rgba(255, 255, 255, 0.3);
+/* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
 
 .menu-right {
-  margin-left: 929px;
-  margin-top: -89px;
+  margin-left: 960px;
+  margin-top: -90px;
+}
+
+.search {
+  border-radius: 2px;
+  border: 1px solid #d8dada;
+  color: #6c7171;
+  height: 29px;
+  font-size: 14px;
+  width: 293px;
 }
 
 .social-ribbon {
@@ -431,6 +470,7 @@ h2 {
   float: left;
   padding: 5px 7px;
   text-align: center;
+  z-index: 100;
 }
 
 .social-ribbon ul {
