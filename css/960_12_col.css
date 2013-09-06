@@ -46,12 +46,16 @@ body {
 .grid_8,
 .grid_9,
 .grid_10,
-.grid_11,
+.grid_11 {
+  display: inline;
+  float: left;
+  margin: 0 10px;
+}
+
 .grid_12 {
   display: inline;
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 20px;
 }
 
 .push_1, .pull_1,
@@ -127,7 +131,7 @@ body {
 }
 
 .container_12 .grid_12 {
-  width: 960px;
+  width: 920px;
 }
 
 /* `Prefix Extra Space >> 12 Columns
@@ -372,6 +376,10 @@ h2 {
   text-align: center;
 }
 
+h2 span{
+  margin-top: 10px;
+}
+
 .connect {
   margin-top: 13px;
 }
@@ -397,9 +405,27 @@ h2 {
   margin-top: -77px;
 }
 
+.email {
+  display: block;
+  height: 23px;
+  margin: 0 auto;
+  width: 255px;
+  
+}
 .header {
   margin-bottom: 30px;
-  padding: 0 10px;
+}
+
+.left {
+  float: left;
+}
+
+.light-border {
+  border-radius: 2px;
+  border: 1px solid #d8dada;
+  color: #6c7171;
+  font-size: 14px;
+
 }
 
 .logo {
@@ -411,6 +437,12 @@ h2 {
   height: 70px;
   margin: 0;
   width: 960px;
+}
+
+.menu-container {
+  width: 960px;
+  display: inline;
+  float: left;
 }
 
 .menu-left {
@@ -451,13 +483,43 @@ h2 {
   margin-top: -90px;
 }
 
-.search {
+.news-letter {
+  background-image:url(file://localhost/Users/Michelle/Michelle/Web%20Development/2013/8:22:13%20-%20Brilliant%20Weddings/news-letter.jpg);
+  background-repeat: no-repeat;
+  clear: both; 
+  height: 36px;
+  width: 290px;
+  }
+
+.news-letter-container {
   border-radius: 2px;
+  box-shadow: 10px #000;
   border: 1px solid #d8dada;
   color: #6c7171;
-  height: 29px;
-  font-size: 14px;
-  width: 293px;
+  float: left;
+  margin: 20px 0;
+  width: 290px;
+-webkit-box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);
+-moz-box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);
+box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
+
+.news-letter-container div{
+  padding: 6px;
+}
+
+.right {
+  float: right;
+}
+
+.search {
+  height: 23px;
+  padding: 3px;
+  width: 284px;
+}
+
+.search-button {
+  margin-left: -36px;
+  margin-top: 5px;
 }
 
 .social-ribbon {
@@ -479,7 +541,6 @@ h2 {
 
 .top-nav {
   float: right;
-  padding: 0 10px;
 }
 
 .top-nav a {
@@ -490,4 +551,8 @@ h2 {
 .top-nav li {
   float: left;
   padding: 7px;
+}
+
+.white {
+  color: #fff;
 }
