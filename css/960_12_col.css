@@ -488,6 +488,10 @@ p {
   margin-left: 0px;
 }
 
+.margin-override {
+  margin-left: 0;
+}
+
 .menu {
   background-image:url(file://localhost/Users/Michelle/Michelle/Web%20Development/2013/8:22:13%20-%20Brilliant%20Weddings/menu.jpg);
   display: inline;
@@ -508,7 +512,7 @@ p {
 }
 
 .menu ul {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
 }
 
 .menu a {
@@ -557,6 +561,62 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
 
 .news-letter-container div{
   padding: 6px;
+}
+
+.older-posts {
+  background: gray;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+  height: 40px;
+  width: 100px;
+}
+
+.post-date {
+  position: absolute;
+  margin-top: -300px;
+}
+
+.post-date img {
+  float: left;
+  margin-left: -33px;
+  z-index: 2;
+}
+
+.post-date span {
+  color: #fff;
+  font-family: times new roman;
+  font-size: 20px;
+  float: left;
+  margin-left: -47px;
+  margin-top: 24px;
+  position: absolute;
+  text-shadow: 1px 2px #000;
+  z-index: 3;
+}
+
+.post-footer {
+  padding: 15px 0;
+}
+
+.post-footer div {
+  color: #fff;
+  background-image:url(file://localhost/Users/Michelle/Michelle/Web%20Development/2013/8:22:13%20-%20Brilliant%20Weddings/comments.jpg);
+  background-repeat: no-repeat;
+  float: left;
+  height: 20px;
+  padding-top: 2px;
+  text-align: center;
+  width: 91px;
+  ;
+}
+
+.post-footer li {
+  float: right;
+}
+
+.post-image {
+  margin: 4px 0;
 }
 
 .right {
