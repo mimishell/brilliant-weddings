@@ -416,7 +416,7 @@ sub {
 }
 
 p {
-  line-height: 24px;
+  line-height: 26px;
 }
 
 .connect {
@@ -488,6 +488,9 @@ p {
   margin-left: 0px;
 }
 
+.margin-8 {
+  margin-left: 8px;
+}
 .margin-override {
   margin-left: 0;
 }
@@ -563,13 +566,27 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
   padding: 6px;
 }
 
-.older-posts {
-  background: gray;
-  color: #fff;
+.older {
+  background: #535656;
   border-radius: 6px;
-  font-size: 16px;
-  height: 40px;
-  width: 100px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  height: 41px;
+  margin: 50px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 154px;
+}
+
+.older span {
+  position: relative;
+  top: 9px;
+}
+
+.post p {
+  margin: 20px 0;
 }
 
 .post-date {
@@ -596,7 +613,8 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
 }
 
 .post-footer {
-  padding: 15px 0;
+  height: 24px;
+  margin: 15px 0;
 }
 
 .post-footer div {
@@ -616,7 +634,7 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
 }
 
 .post-image {
-  margin: 4px 0;
+  margin: 8px 0;
 }
 
 .right {
@@ -632,6 +650,12 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
 .search-button {
   margin-left: -36px;
   margin-top: 5px;
+}
+
+.sidebar h2 {
+  background-image:url(file://localhost/Users/Michelle/Michelle/Web%20Development/2013/8:22:13%20-%20Brilliant%20Weddings/sidebar.jpg);
+  height: 47px;
+  width: 302px;
 }
 
 .social-ribbon {
