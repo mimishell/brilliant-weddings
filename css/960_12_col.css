@@ -499,6 +499,10 @@ p {
   width: 185px;
 }
 
+.footer-divider {
+  background:url(../footer-divider.jpg);
+}
+
 .header {
   margin-bottom: 30px;
 }
@@ -719,6 +723,15 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
 .search-button {
   margin-left: -30px;
   margin-top: 5px;
+}
+
+.sidebar-hover li {
+  width: 269px;
+}
+
+.sidebar-hover li:hover {
+  background: #c0c7c7;
+  color: #fff;
 }
 
 .sidebar {
