@@ -442,11 +442,23 @@ p {
   border: 3px solid #97a4a2 ;
   float: left;
   margin-right: 23px;
+  position: relative;  
 }
 
-.carousel-thumb li:hover {
-
+.carousel-thumb li:before {
+    content: "";  
+    display: block;  
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    background: rgba(0, 0, 0, 0.5);  
 } 
+
+.carousel-thumb li:hover:before {  
+    background: none;  
+}  
 
 .connect {  
   float:right;
@@ -477,7 +489,12 @@ p {
 }
 
 .dotted {
-  margin: 0 0 20px -5px;
+  margin: 0 0 20px 0;
+}
+
+.dotted li{
+  float: left;
+  margin: 0 5px;
 }
 
 .email {
