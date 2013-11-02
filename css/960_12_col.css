@@ -441,7 +441,7 @@ p {
 .carousel-thumb li {
   border: 3px solid #97a4a2 ;
   float: left;
-  margin-right: 23px;
+  margin-right: 21px;
   position: relative;  
 }
 
@@ -753,7 +753,8 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
 }
 
 .sidebar-hover li {
-  width: 269px;
+  width: 255px;
+  margin-left: 7px;
 }
 
 .sidebar-hover li:hover {
@@ -801,6 +802,7 @@ box-shadow: inset 0px 0px 44px -17px rgba(7,8,8,1);}
 }
 
 .sidebar-links ul li img{
+  margin-left: 6px;
   margin-right: 10px;
 }
 
