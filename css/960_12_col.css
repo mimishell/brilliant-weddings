@@ -429,6 +429,14 @@ p {
   float: left;
 }
 
+.bullet-bell {
+  background:url(../bullet-bell.png) no-repeat;
+  width: 15px;
+  height: 24px;
+  margin: 3px 10px 0 4px;
+  float: left;
+}
+
 .carousel-thumb .carousel-thumb5 {
   margin-right: 0;
   margin-left:-1px;
@@ -486,6 +494,7 @@ p {
 
 .divider {
   margin: 10px 0;
+  max-width: 100%;
 }
 
 .dotted {
